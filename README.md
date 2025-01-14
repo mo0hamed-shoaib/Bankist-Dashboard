@@ -1,23 +1,22 @@
-# Bankist-System
+# Bankist-Dashboard
 
-Live Demo:
+**Live Demo:**
+
 https://mo0hamed-shoaib.github.io/Bankist-Dashboard/
 
-Login Credentials:
-** Portugal Locale | EUR **
-User: js
-Pass: 1111
+**Login Credentials:**
 
-** USA Locale | USD **
-User: jd
-Pass: 2222
+1- Portugal Locale, Portuguese, EUR --> User: js || PIN: 1111
 
-** Egypt Locale | EGP **
-User: mg
-Pass: 3333
+2- USA Locale, English, USD --> User: jd || PIN: 2222
 
-Log in screen
+3- Egypt Locale, Arabic, EGP --> User: mg || PIN: 3333
+
+**Screenshots**
+
+**Log in screen**
 ![image](https://github.com/user-attachments/assets/8711f5be-fba5-49e4-84c4-996893bd1394)
 
-Dashboard
+
+**Dashboard**
 ![image](https://github.com/user-attachments/assets/8c204fbb-d364-480e-a896-7b1e16dfc8d1)
