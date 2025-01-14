@@ -2,7 +2,10 @@
 
 **Live Demo:**
 
-https://mo0hamed-shoaib.github.io/Bankist-Dashboard/
+**Link 1:** https://mo0hamed-shoaib.github.io/Bankist-Dashboard/
+
+**Link 2:**
+https://precious-gecko-308d8b.netlify.app/
 
 **Login Credentials:**
 
