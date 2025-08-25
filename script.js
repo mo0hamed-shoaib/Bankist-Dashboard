@@ -230,8 +230,14 @@ btnLogin.addEventListener('click', function (e) {
       containerApp.style.opacity = 1;
       updateUI(currentAccount);
 
+      // Hide credentials after successful login
+      document.getElementById('credentials').style.display = 'none';
+
       inputLoginUsername.value = inputLoginPin.value = '';
       blurCursor(inputLoginUsername, inputLoginPin);
+
+      // Clear close account fields
+      inputCloseUsername.value = inputClosePin.value = '';
 
       // Preventing dual timers
       if (timerGlobal) clearInterval(timerGlobal);

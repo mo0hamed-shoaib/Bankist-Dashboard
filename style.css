@@ -28,6 +28,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: relative;
 }
 
 .welcome {
@@ -81,6 +82,76 @@ nav {
 .btn--sort:focus {
   outline: none;
   color: #777;
+}
+
+/* CREDENTIALS SECTION */
+.credentials {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-top: 1rem;
+  min-width: 25rem;
+  z-index: 1000;
+}
+
+.credentials__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.credentials__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.credential-card {
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+}
+
+.credential-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.flag {
+  font-size: 1.5rem;
+}
+
+.locale {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.credential-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.credential-details p {
+  font-size: 1.2rem;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credential-details strong {
+  color: #444;
+  font-weight: 500;
 }
 
 /* MAIN */
